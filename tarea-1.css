@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 2rem;
+}
+.cabeza {
+    height: 100px;
+    width: 100%;
+    background-color: lightgray;
+    border-bottom: 5px solid white;
+    text-align: center;
+}
+.sub {
+    height: 100px;
+    width: 100%;
+    background-color: lightgray;
+    border-bottom: 5px solid white;
+    text-align: center;
+}
+.centro {
+    display: flex;
+    height: 100%;
+    display: flex;
+    
+}
+.centro1 {
+    flex: 1 1;
+    background-color: lightgray;
+    text-align: center;
+}
+.centro2 {
+    flex: 1 1;
+    background-color: lightgray;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    text-align: center;
+    justify-content: center;
+}
+.centro3 {
+    flex: 1 1;
+    background-color: lightgray;
+    text-align: center;
+}
+.pie {
+    height: 100px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: auto;
+    border-top: 5px solid white;
+    text-align: center;
+}
